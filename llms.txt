@@ -1,0 +1,21 @@
+# DNRP
+
+> DNRP는 한국 브랜드가 해외에서 팔 수 있도록 쇼피파이 스토어를 진단·구축·운영하는 쇼피파이 전문 회사입니다.
+
+- 가격은 공개하지 않으며 범위 상담 후 견적을 드립니다.
+
+## 서비스
+- [해외 진출 진단 | DNRP](https://dnrpai.com/services/해외-진출-진단.html): 해외 진출 진단은 법인·결제·배송·인증·상품 데이터를 점검해 어느 나라에 어떤 구조로 열지 정하는 작업입니다.
+- [스토어 구축 | DNRP](https://dnrpai.com/services/스토어-구축.html): 쇼피파이 스토어 구축은 테마 설정부터 상품 등록, 결제·배송 설정까지 판매를 시작할 수 있는 상태로 만드는 작업입니다.
+- [브랜드 스토어 디자인 | DNRP](https://dnrpai.com/services/브랜드-스토어-디자인.html): 브랜드 스토어 디자인은 브랜드 톤에 맞춰 메인·상품·컬렉션 페이지를 맞춤 설계하는 작업입니다.
+- [한국 결제·로그인 연동 | DNRP](https://dnrpai.com/services/한국-결제-로그인-연동.html): 한국 결제·로그인 연동은 쇼피파이 스토어에서 국내 카드·간편결제와 카카오·네이버 로그인을 쓸 수 있게 연결하는 작업입니다.
+- [해외 판매 세팅 | DNRP](https://dnrpai.com/services/해외-판매-세팅.html): 해외 판매 세팅은 다국어·다중 통화·국가별 배송비와 관세 표시를 설정하는 작업입니다.
+- [운영·성장 관리 | DNRP](https://dnrpai.com/services/운영-성장-관리.html): 운영·성장 관리는 오픈 이후 테마 수정, 앱 관리, 오류 대응을 월 단위로 맡는 서비스입니다.
+- [전환율 개선 | DNRP](https://dnrpai.com/services/전환율-개선.html): 전환율 개선은 방문자가 구매까지 가는 비율을 데이터로 점검하고 상품 페이지와 결제 흐름을 실험해 고치는 작업입니다.
+- [AI 검색 노출 | DNRP](https://dnrpai.com/services/AI-검색-노출.html): AI 검색 노출은 ChatGPT 같은 AI가 브랜드와 상품을 정확히 인용하도록 스토어의 글과 구조화 정보를 정리하는 작업입니다.
+
+## Optional
+- [DNRP 서비스](https://dnrpai.com/services/index.html)
+- [자주 묻는 질문 | DNRP](https://dnrpai.com/faq.html)
+- [회사 소개 | DNRP](https://dnrpai.com/about.html)
+- [상담 신청 | DNRP](https://dnrpai.com/contact.html)
