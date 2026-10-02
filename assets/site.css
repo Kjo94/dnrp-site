@@ -213,6 +213,25 @@ p{margin:0}
 .guide p{font-size:15px;color:var(--ink-2)}
 .guide .mono{color:var(--mute)}
 
+/* 쇼피파이 Q&A */
+.qa-cat{display:grid;gap:14px}
+.qa-cat+.qa-cat{margin-top:48px}
+.qa-cat h2{display:flex;align-items:baseline;gap:12px}
+.qa-cat h2 span{font-family:var(--f-mono);font-size:12px;font-weight:600;color:var(--cobalt);letter-spacing:.08em}
+.qa{display:grid;gap:10px;padding:24px 26px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);box-shadow:var(--sh);text-decoration:none;
+  transition:border-color .3s,transform .3s var(--ease)}
+.qa:hover{border-color:color-mix(in srgb,var(--cobalt) 45%,var(--line));transform:translateY(-2px)}
+.qa h3{font-size:clamp(18px,1.6vw,20px)}
+.qa p{color:var(--ink-2);font-size:16px;max-width:none}
+.qa .more{font-size:14px;color:var(--cobalt);font-weight:600;display:inline-flex;align-items:center;gap:6px}
+.qa .more svg{width:14px;height:14px}
+.rel{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.rel a{display:grid;gap:6px;padding:20px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);text-decoration:none}
+.rel a span{font-size:14.5px;color:var(--ink-2)}
+.others{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.others a{display:flex;justify-content:space-between;gap:16px;align-items:center;min-height:56px;padding:12px 0;border-bottom:1px solid var(--line);text-decoration:none;font-weight:600}
+.others a small{font-family:var(--f-mono);font-size:12px;color:var(--mute);font-weight:400;white-space:nowrap}
+
 /* FAQ */
 .faq{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:56px;align-items:start}
 .faq-list{border-top:1px solid var(--line)}
@@ -240,7 +259,7 @@ p{margin:0}
 .page-head .w{position:relative;z-index:1;display:grid;gap:18px;padding-block:56px 72px}
 .page-head h1{font-size:clamp(32px,4.2vw,54px);max-width:18em}
 .page-head .lead{color:#c9d1e2;max-width:38em}
-.crumb{display:flex;flex-wrap:wrap;align-items:center;gap:0 6px;font-family:var(--f-mono);font-size:12.5px;color:var(--night-mute)}
+.crumb{display:flex;flex-wrap:wrap;align-items:center;gap:0 6px;font-size:13px;color:var(--night-mute)}
 .crumb a,.crumb [aria-current]{text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
 .crumb a:hover{color:var(--night-ink)}
 .stamp{font-family:var(--f-mono);font-size:12.5px;color:var(--night-mute)}
@@ -249,7 +268,7 @@ p{margin:0}
 .body h2{font-size:clamp(24px,2.4vw,32px)}
 .body p{color:var(--ink-2);max-width:var(--read)}
 .answer{border-radius:var(--r);background:var(--surface-2);padding:22px 26px;display:grid;gap:8px;max-width:880px}
-.answer .mono{color:var(--cobalt);font-weight:600}
+.answer .mono{color:var(--cobalt);font-weight:700;font-family:var(--f-sans);font-size:13px;letter-spacing:0}
 .answer p{font-size:18px;line-height:1.65;color:var(--ink);max-width:none}
 .tbl{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r-s);background:var(--surface);-webkit-overflow-scrolling:touch;max-width:100%}
 table{border-collapse:collapse;width:100%;min-width:520px;font-size:15.5px}
@@ -267,12 +286,12 @@ tr:last-child td,tr:last-child th{border-bottom:0}
 /* 푸터 */
 footer{background:var(--night);color:var(--night-mute);font-size:14px;border-top:1px solid var(--night-line)}
 footer .w{display:grid;gap:36px;padding-block:64px 40px}
-.f-top{display:grid;grid-template-columns:minmax(0,1.2fr) repeat(2,minmax(0,1fr));gap:32px}
+.f-top{display:grid;grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,1fr));gap:32px}
 .f-top>*{min-width:0}
 .f-top .logo{color:var(--night-ink)}
 .f-top p{margin-top:10px;max-width:28em}
 .f-col{display:grid;gap:0;align-content:start}
-.f-col b{color:var(--night-ink);font-size:12px;margin-bottom:6px;font-family:var(--f-mono);letter-spacing:.1em}
+.f-col b{color:var(--night-ink);font-size:13px;margin-bottom:6px;font-weight:700;letter-spacing:.02em}
 .f-col a{text-decoration:none;min-height:40px;display:flex;align-items:center}
 .f-col a:hover{color:var(--night-ink)}
 .f-legal{display:grid;gap:6px;padding-top:24px;border-top:1px solid var(--night-line);font-size:13px}
@@ -299,7 +318,7 @@ footer .w{display:grid;gap:36px;padding-block:64px 40px}
   .link-mid{height:72px}
   .link-mid::before{left:50%;right:auto;top:0;bottom:0;width:1px;height:auto;background:linear-gradient(var(--line),var(--cobalt),var(--line))}
   .guides{grid-template-columns:1fr}
-  .f-top{grid-template-columns:1fr 1fr}
+  .f-top{grid-template-columns:repeat(3,minmax(0,1fr))}
   .f-top>div:first-child{grid-column:1/-1}
   .chip-order{display:none}
 }
