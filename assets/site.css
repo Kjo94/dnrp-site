@@ -217,6 +217,9 @@ p{margin:0}
 .qa-cat{display:grid;gap:14px}
 .qa-cat+.qa-cat{margin-top:48px}
 .qa-cat h2{display:flex;align-items:baseline;gap:12px}
+.qa-sub{font-size:14px;font-weight:700;color:var(--mute);margin-top:14px;padding-top:12px;border-top:1px dashed var(--line);max-width:none}
+.qa-sub:first-of-type{border-top:0;padding-top:0;margin-top:0}
+.qa-n{font-size:14px;font-weight:600;color:var(--mute);font-family:var(--f-mono)}
 .qa-cat h2 span{font-family:var(--f-mono);font-size:12px;font-weight:600;color:var(--cobalt);letter-spacing:.08em}
 .qa{display:grid;gap:10px;padding:24px 26px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);box-shadow:var(--sh);text-decoration:none;
   transition:border-color .3s,transform .3s var(--ease)}
