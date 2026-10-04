@@ -281,6 +281,7 @@ th{font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;text-transform:
 tr:last-child td,tr:last-child th{border-bottom:0}
 .kv th{width:34%;max-width:190px;background:transparent;text-transform:none;letter-spacing:0;font-family:var(--f-sans);font-size:14.5px}
 .list{margin:0;padding-left:1.2em;color:var(--ink-2);display:grid;gap:6px}
+.list .link{display:inline;overflow-wrap:anywhere;word-break:break-all}
 .contact-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
 .contact-cards a,.contact-cards div{display:grid;gap:4px;padding:22px;border-radius:var(--r);border:1px solid var(--line);background:var(--surface);text-decoration:none;min-width:0}
 .contact-cards b{font-size:18px;overflow-wrap:anywhere}
